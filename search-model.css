@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.search-box{
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-icon{
+    height: 3.9rem;
+    width: 5rem;
+    font-size: 2.6rem;
+    display: inline-block;
+    position: relative;
+    left: 51px;
+    top: 9px;
+    z-index: 1;
+}
+
+.search-bar{
+    width: 88%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    /* font-weight:600; */
+    font-family:cursive;
+    padding-left: 65px;
+    border-radius: 9px;
+    position: relative;
+    top: -2px;
+    left: -37px;
+    outline: none;
+    border: none;
+}
+
+.result{
+    margin-left: 1.9rem;
+    padding-right: 4rem;
+}
+.movie-title{
+    position: relative;
+    left: 4.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+#tv-title{
+    position: relative;
+    left: 4.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+#movie-result{
+    margin-left: 3.9rem;
+    padding-right: 4rem;
+}
+
+#tv-result{
+    margin-left: 3.9rem;
+    padding-right: 4rem;
+}
+
+.result-box{
+    display: inline-block;
+    width: 196px;
+    height: 15rem;
+    margin: 0.5rem;
+    border-radius: 8px;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.result-box:hover{
+    transform: scale(1.2);
+}

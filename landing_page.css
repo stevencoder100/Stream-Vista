@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#banner{
+    width: 100vw;
+    overflow-x: hidden;
+    height: 700px;
+    background-image: url("images/signup-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+
+#banner-title{
+    height: 10rem;
+    width: 29rem;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 15rem;
+    left: 2.5rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 53px;
+    display: flex;
+    background: transparent;
+    z-index: 1;
+    text-shadow: 2px 3px 5px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#banner-description{
+    height: 7rem;
+    width: 31rem; 
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 15rem;
+    left: 2.5rem;
+    font-weight: 500;
+    font-family: monospace;
+    font-size: 17px;
+    display: flex;
+    background: transparent;
+    text-shadow: 2px 3px 5px rgb(0, 0, 0);
+    z-index: 1;
+}
+
+#play{
+    height: 3rem;
+    width: 8rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 32.5rem;
+    left: 4rem;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    border-radius: 5px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: solid;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.5s;
+}
+
+#more-info{
+    height: 3rem;
+    width: 10.7rem;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 32.5rem;
+    left: 13rem;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    border-radius: 5px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.9;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+#play:hover{
+    transform: scale(1.10);
+    opacity: 0.5;
+}
+
+#more-info:hover{
+    transform: scale(1.10);
+    opacity: 0.5;
+}
+.nav-bar{
+    width: 100vw;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 9;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 118px;
+    z-index: 9;
+    background: transparent;
+    transition: all 0.5s ease;
+}
+
+.home{
+    position: absolute;
+    top: 10px;
+    left: 145px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 9;
+    background: transparent;
+    transition: all 0.5s ease;
+    font-family: monospace;
+}
+
+.movies{
+    position: absolute;
+    top: 10px;
+    left: 214px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 9;
+    background: transparent;
+    transition: all 0.5s ease;
+    font-family: monospace;
+}
+
+.tv-shows{
+    position: absolute;
+    top: 10px;
+    left: 305px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 9;
+    background: transparent;
+    transition: all 0.5s ease;
+    font-family: monospace;
+}
+
+.new-popular{
+    position: absolute;
+    top: 10px;
+    left: 416px;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 20px;
+    z-index: 9;
+    background: transparent;
+    transition: all 0.5s ease;
+}
+
+.my-list{
+    position: absolute;
+    top: 10px;
+    left: 584px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 9;
+    background: transparent;
+    transition: all 0.5s ease;
+    font-family: monospace;
+}
+
+.search-box{
+    position: absolute;
+    height: 1.5rem;
+    width: 9rem;
+    top: 10px;
+    left: 75.3rem;
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 9;
+    background: transparent;
+    transition: all 0.5s ease;
+}
+
+.primium{
+    position: absolute;
+    top: 10px;
+    left: 79rem;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 9;
+    background: transparent;
+    transition: all 0.5s ease;
+    font-family: monospace;
+}
+
+.notification{
+    position: absolute;
+    top: 10px;
+    left: 86.5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 9;
+    background: transparent;
+    transition: all 0.5s ease;
+}
+
+.login{
+    position: absolute;
+    top: 10px;
+    left: 90rem;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    z-index: 9;
+    background: transparent;
+    transition: all 0.5s ease;
+    font-family: monospace;
+}
+
+.card{
+    width: 100vw;
+    height: 13rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.video-card{
+    background-color: orange;
+    position: relative;
+    min-width: 267px;
+    width: 250px;
+    height: 10rem;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.video-card-image, .card-video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-video{
+    position: absolute;
+}
+
+.video-card:hover .video-card-image{
+    display: none;
+}
+
+.video-card:hover{
+    transform: scale(1.18);
+}
+
+.movie-row{
+    width: 100vw;
+    height: 490rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.row{
+    position: relative;
+    left: 30px;
+    top: -20px;
+    width: 100%;
+    height: 24rem;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    overflow-y: hidden;
+    z-index: 0;
+}
+
+.movie_box{
+    min-width: 196px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.poster{
+    width: 100%;
+    height: 70%;
+    position: relative;
+    top: 53px;
+    transition: all 0.7s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.title{
+    font-size: 1.4rem;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    z-index: 0;
+    position: relative;
+    bottom: 7px;
+}
+
+.movie-title{
+    font-size: 2;
+}
+.poster:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+
+a:hover{
+    transform: scale(1.09);
+}
+.new-title{
+    color: orange;
+    position: relative;
+    display: inline;
+    font-size: 25px;
+    font-family: monospace;
+    font-weight: 600;
+    left: 30px;
+    top: 20px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 20rem;
+    background-color: rebeccapurple;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }

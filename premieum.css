@@ -1,0 +1,968 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo{
+    height: 3rem;
+    width: 10rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
+}
+
+.button{
+        height: 3rem;
+        width: 7rem;
+        position: absolute;
+        top: 25px;
+        right: 20px;
+        color: white;
+        background-color: white;        
+}
+
+a{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    font-size: 1.50rem;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.close{
+    width: 90rem;
+    background-color: aqua;
+    border: none;
+    border-top: 1px solid gray;
+    position:  absolute;
+    top: 6rem;
+}
+
+.step{
+    position: relative;
+    top: 9rem;
+    left: 3rem;
+}
+
+.txt1{
+    position: relative;
+    top: 9.55rem;
+    left: 3rem;
+}
+
+.box1{
+    height: 38.25rem;
+    width: 18rem;
+    border: 2px solid black;
+    position: relative;
+    top: 13rem;
+    left: 6rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.b1{
+    height: 5rem;
+    width: 17rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-self: center;
+    background-color: #1D529D;
+}
+
+.b2{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+   border: none;
+   border-bottom: 1px solid gray;    
+}
+.b3{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+}
+.b4{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+}
+.b5{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray;  
+}
+.b6{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+}
+.b7{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray;  
+}
+.b8{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none; 
+}
+.tb1{
+   
+    position: relative;
+    top: 0.90rem;
+    left: 1rem;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+.t2b1{
+     position: relative;
+     top: 1rem ;
+     left: 1.10rem;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+.tb2{
+    position: relative;
+    top: 0.5rem;
+    right: 3.6rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.t2b2{
+    position: relative;
+    top: 2rem;
+   right: 9.90rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.t2b1{
+    position: relative;
+    top: 1rem ;
+    left: 1.10rem;
+   font-weight: bold;
+   color: white;
+   font-size: larger;
+}
+.tb3{
+   position: relative;
+   top: 0.5rem;
+   right: 1.7rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+   font-weight: normal;
+   font-size: 1.1rem;
+}
+.t2b3{
+   position: relative;
+   top: 2rem;
+  right: 12.32rem;
+  font-weight: bold;
+  color: black;
+  font-size: larger;
+   font-weight: normal;
+   font-size: 1.1rem;
+}
+.tb4{
+    position: relative;
+    top: 0.5rem;
+    left: -0.5rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2b4{
+    position: relative;
+    top: 2rem;
+   right: 5.2rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .tb5{
+    position: relative;
+    top: 0.5rem;
+    right: 3.1rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2b5{
+    position: relative;
+    top: 2rem;
+   right: 8.80rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .tb6{
+    position: relative;
+    top: 0.5rem;
+    right: 1.89rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2b6{
+    position: relative;
+    top: 2rem;
+   right: 9.89rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .tb7{
+    position: relative;
+    top: 0.5rem;
+    left: 0.2rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+    
+ }
+ .t2b7{
+    position: relative;
+    top: 2.7rem;
+   right: 15rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .tb8{
+    position: relative;
+    top: 0.5rem;
+    left: -4rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .t2b8{
+    position: relative;
+    top: 2rem;
+   right: 11rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .box-2{
+    height: 38.25rem;
+    width: 18rem;
+    border: 2px solid black;
+    position: absolute;
+    top: 16.50rem;
+    left: 26rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+
+.b-1{
+    height: 5rem;
+    width: 17rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-self: center;
+    background-color: #1D529D;
+ }
+ .b-2{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .b-3{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .b-4{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .b-5{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .b-6{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .b-7{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+ }
+ .b-8{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none; 
+ }
+ .tb-1{
+    position: relative;
+    top: 0.90rem;
+    left: 1rem;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+ .t2b-1{
+    position: relative;
+    top: 1rem ;
+    left: 1.10rem;
+   font-weight: bold;
+   color: white;
+   font-size: larger;
+ }
+ .tb-2{
+    position: relative;
+    top: 0.5rem;
+    right: 3.6rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.t2b-2{
+    position: relative;
+    top: 2rem;
+   right: 9.90rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.tb-3{
+    position: relative;
+    top: 0.5rem;
+    right: 1.50rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2b-3{
+    position: relative;
+    top: 2rem;
+   right: 12.10rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .tb-4{
+    position: relative;
+    top: 0.5rem;
+    left: -1.90rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2b-4{
+    position: relative;
+    top: 2rem;
+   right: 6.80rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .tb-5{
+    position: relative;
+    top: 0.5rem;
+    right: 1.85rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2b-5{
+    position: relative;
+    top: 2rem;
+   right: 9.90rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .tb-6{
+    position: relative;
+    top: 0.5rem;
+    right: 0rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .t2b-6{
+    position: relative;
+    top: 2.8rem;
+   right: 15rem;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .tb-7{
+    position: relative;
+    top: 0.5rem;
+    right: 4rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+    
+ }
+ .t2b-7{
+    position: relative;
+    top: 2.2rem;
+   right: 11.400rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .box3{
+    height: 38.25rem;
+    width: 18rem;
+    border: 2px solid black;
+    position: absolute;
+    top: 16.50rem;
+    left: 47rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ .r1{
+    height: 5rem;
+    width: 17rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-self: center;
+    background-color: #1D529D;
+ }
+ .r2{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .r3{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .r4{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .r5{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .r6{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .r7{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+ }
+ .r8{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none; 
+ }
+ .tr-1{
+    position: relative;
+    top: 0.90rem;
+    left: 1rem;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+ .t2r-1{
+    position: relative;
+    top: 1rem ;
+    left: 1.10rem;
+   font-weight: bold;
+   color: white;
+   font-size: larger;
+ }
+ .tr-2{
+    position: relative;
+    top: 0.5rem;
+    right: 3.6rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.t2r-2{
+    position: relative;
+    top: 2rem;
+   right: 9.90rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.tr-3{
+    position: relative;
+    top: 0.5rem;
+    right: 1.50rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2r-3{
+    position: relative;
+    top: 2rem;
+   right: 12.10rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .tr-4{
+    position: relative;
+    top: 0.5rem;
+    right: 3.1rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2r-4{
+    position: relative;
+    top: 2rem;
+   right: 8rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .tr-5{
+    position: relative;
+    top: 0.5rem;
+    right: 1.85rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2r-5{
+    position: relative;
+    top: 2rem;
+   right: 9.90rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .tr-6{
+    position: relative;
+    top: 0.5rem;
+    right: 0rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .t2r-6{
+    position: relative;
+    top: 2.8rem;
+   right: 15rem;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .tr-7{
+    position: relative;
+    top: 0.5rem;
+    right: 4rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+    
+ }
+ .t2-7{
+    position: relative;
+    top: 2.2rem;
+   right: 11.400rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .box4{
+    height: 38.25rem;
+    width: 18rem;
+    border: 2px solid black;
+    position: absolute;
+    top: 16.50rem;
+    left: 68rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+ .s1{
+    height: 5rem;
+    width: 17rem;
+    border-radius: 1rem;
+    justify-content: center;
+    align-self: center;
+    background-color: #1D529D;
+ }
+ .s2{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .s3{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .s4{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .s5{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .s6{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+    border-bottom: 1px solid gray; 
+ }
+ .s7{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none;
+ }
+ .s8{
+    height: 4rem;
+    width: 16rem;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: none; 
+ }
+ .ts-1{
+    position: relative;
+    top: 0.90rem;
+    left: 1rem;
+    font-weight: bold;
+    color: white;
+    font-size: larger;
+}
+ .t2s-1{
+    position: relative;
+    top: 1.25rem ;
+    left: 1.10rem;
+   font-weight: bold;
+   color: white;
+   font-size: larger;
+ }
+ .ts-2{
+    position: relative;
+    top: 0.5rem;
+    right: 3.6rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.t2s-2{
+    position: relative;
+    top: 2rem;
+   right: 9.90rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+.ts-3{
+    position: relative;
+    top: 0.5rem;
+    right: 1.50rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2s-3{
+    position: relative;
+    top: 2rem;
+   right: 12.10rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .ts-4{
+    position: relative;
+    top: 0.5rem;
+    right: 4rem;
+    font-weight: bold;
+    color: black;
+    font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2s-4{
+    position: relative;
+    top: 2rem;
+   right: 8.90rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .ts-5{
+    position: relative;
+    top: 0.5rem;
+    right: 1.85rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .t2s-5{
+    position: relative;
+    top: 2rem;
+   right: 9.90rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1.1rem;
+ }
+ .ts-6{
+    position: relative;
+    top: 0.5rem;
+    right: 0rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .t2s-6{
+    position: relative;
+    top: 2.8rem;
+   right: 15rem;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .ts-7{
+    position: relative;
+    top: 0.5rem;
+    right: 4rem;
+    font-weight: bold;
+    color: black;
+    font-weight: normal;
+    font-size: 1rem;
+    
+ }
+ .t2s-7{
+    position: relative;
+    top: 2.2rem;
+   right: 11.400rem;
+   font-weight: bold;
+   color: black;
+   font-size: larger;
+    font-weight: normal;
+    font-size: 1rem;
+ }
+ .detail{
+    position: relative;
+    top: 15rem;
+    font-weight: 1px;
+ }
+ #next{
+    height: 4rem;
+    width: 30rem;
+    background-color: red;
+    position: relative;
+    top: 17rem;
+    left: 25rem;
+    font-size: 2rem;
+    color: white;
+ }
+ .footer{
+    height: 15rem;
+    width: 83.70rem;
+    border: 1px solid black;
+    position: relative;
+    top: 25rem;
+ }

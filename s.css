@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Hide overflow */
+body {
+    overflow: hidden;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/signup-background.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.top{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 6rem;
+    align-items: center;
+}
+
+.bottom{
+    width: 100%;
+    height: 89%;
+}
+
+.signin{
+    height: 2.5rem;
+    width: 5rem;
+    background-color: orange;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.welcome{
+    width: 100%;
+    height: 55%;
+    /* background-color: blue; */
+}
+
+.form{
+    width: 100%;
+    height: 45%;    
+}
+
+.main-head{
+    font-size: 3.7rem;
+    color: white;
+    position: relative;
+    top: 1rem;
+}
+
+.main-subhead{
+    font-size: 1.7rem;
+    color: white;
+    position: relative;
+    top: 10.5rem;
+}
+
+.ready{
+    font-size: 1.4rem;
+    color: white;
+    position: relative;
+    top: 12rem;
+}
+
+.email{
+    height: 4rem;
+    width: 25rem;
+    position: relative;
+    left: 19rem;
+
+}
+
+.password{
+    height: 4rem;
+    width: 25rem;
+    position: relative;
+    top: 4.5rem;
+    left: -6.2rem;
+}
+
+.get-started{
+    height: 3rem;
+    width: 15rem;
+    position: relative;
+    top: 10rem;
+    left: -27rem;
+}
